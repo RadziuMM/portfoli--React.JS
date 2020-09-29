@@ -20,7 +20,7 @@ const hide =() => {
   setTimeout( ()=>{
     menu.classList.add("sidemenu");
     menu.classList.click("click");
-  },500)
+  },1000)
 }
 
 class App extends React.Component {
