@@ -1,0 +1,67 @@
+{
+    "image__text":{
+        "text0":"Hi, I'm Radek. Nice to meet you.",
+        "text1":"Currently, I am at the beginning of my career in IT. Programming gives me a lot of fun, so I decided to develop in this direction. I do well on the frontend and backend. My current goal is to find a job that will help me develop my skills."
+    },
+    "containers":[
+        {
+            "text0":"About me",
+            "text1":"HI! My name is Radek!"
+        },
+        {
+            "text0":"About me",
+            "text1":"HI! My name is Radek!"
+        },
+        {
+            "text0":"About me",
+            "text1":"HI! My name is Radek!"
+        },
+        {
+            "text0":"About me",
+            "text1":"HI! My name is Radek!"
+        }
+    ],
+    "projects":[
+        {
+            "name":"Calendar",
+            "link":"https://github.com/RadziuMM/Calendar-Vue.js",
+            "stack":["JavaScript ","Vue.js ","GraphQL ","TailWindCss ","Apollo "]
+        },
+        {
+            "name":"Camping Map",
+            "link":"https://github.com/RadziuMM/Campings-Map-Vue.js",
+            "stack":["JavaScript ","Vue.js ","Sass ","GoogleApi "]
+        },
+        {
+            "name":"Portfolio",
+            "link":"#",
+            "stack":["JavaScript ","React.js ","Sass "]
+        },
+        {
+            "name":"Server-GraphQL",
+            "link":"https://github.com/RadziuMM/Server-GraphQL-Prisma-PostgreSQL-",
+            "stack":["JavaScript ","express.js ","Apollo ","GraphQL ","Prisma "]
+        },
+        {
+            "name":"Server-MongoDB",
+            "link":"https://github.com/RadziuMM/Server-MongoDB",
+            "stack":["JavaScript ","express.js ","MongoDB"]
+        },
+        {
+            "name":"TrenerBot",
+            "link":"https://github.com/RadziuMM/TrenerBot.js",
+            "stack":["JavaScript ","express.js ","FireBase ","Discord&Telegram_api"]
+        }
+    ],
+    "stack":[
+        {
+            "tech":["HTML","Css","Sass","TailWindCss","Bootstrap","JavaScript","Vue.js","React.js","Gulp","Webpack","Babel"]
+        },
+        {
+            "tech":["Node","express.js","SQL","Eslint","noSQL","GraphQL","mongoDB","Docker","Git","Terminal","Linux","and more.."]
+        },
+        {
+            "tech":["Agile","Scrum","Github","Jira","Confluence","Excel"]
+        }
+    ]
+}
