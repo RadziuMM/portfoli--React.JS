@@ -24,6 +24,27 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Portfolio</title>
+    <script>
+      const hide =() => {
+        const menu = document.getElementById('sidemenu');
+        menu.parentNode.removeChild(menu);
+
+        const newmenu = document.createElement("div");
+        newmenu.innerHTML =`
+          <a href="#start" onClick="hide()"><div>Start</div></a>
+          <a href="#who" onClick="hide()"><div>Who am I?</div></a>
+          <a href="#skills" onClick="hide()"><div>My skills</div></a>
+          <a href="#projects" onClick="hide()"><div>My projects</div></a>
+          <a href="#contact" onClick="hide()"><div>Contact</div></a>
+          `
+          newmenu.id = "sidemenu";
+          newmenu.classList.add("sidemenu");
+        const parent = document.getElementById("butt");
+        setTimeout(()=>{
+          parent.appendChild(newmenu);
+        },500)
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -15,12 +15,22 @@ import data from './assets/data.json';
 
 const hide =() => {
   const menu = document.getElementById('sidemenu');
-  menu.classList.remove("sidemenu");
-  menu.classList.add("click");
-  setTimeout( ()=>{
-    menu.classList.add("sidemenu");
-    menu.classList.remove("click");
-  },1000)
+  menu.parentNode.removeChild(menu);
+
+  const newmenu = document.createElement("div");
+  newmenu.innerHTML =`
+    <a href="#start" onClick="hide()"><div>Start</div></a>
+    <a href="#who" onClick="hide()"><div>Who am I?</div></a>
+    <a href="#skills" onClick="hide()"><div>My skills</div></a>
+    <a href="#projects" onClick="hide()"><div>My projects</div></a>
+    <a href="#contact" onClick="hide()"><div>Contact</div></a>
+    `
+    newmenu.id = "sidemenu";
+    newmenu.classList.add("sidemenu");
+  const parent = document.getElementById("butt");
+  setTimeout(()=>{
+    parent.appendChild(newmenu);
+  },500)
 }
 
 class App extends React.Component {
@@ -28,7 +38,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <nav>
-          <div className="butt">
+          <div className="butt" id="butt">
             <div className="butt__line"></div>
             <div className="butt__line"></div>
             <div className="butt__line"></div>
