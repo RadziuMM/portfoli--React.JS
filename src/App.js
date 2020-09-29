@@ -13,6 +13,16 @@ import Project from './components/project';
 import List from './components/list';
 import data from './assets/data.json';
 
+const hide =() => {
+  const menu = document.getElementById('sidemenu');
+  menu.classList.remove("sidemenu");
+  menu.classList.add("click");
+  setTimeout( ()=>{
+    menu.classList.add("sidemenu");
+    menu.classList.click("click");
+  },500)
+}
+
 class App extends React.Component {
   render() {
     return (
@@ -22,12 +32,12 @@ class App extends React.Component {
             <div className="butt__line"></div>
             <div className="butt__line"></div>
             <div className="butt__line"></div>
-            <div className="sidemenu">
-              <a href="#start"><div>Start</div></a>
-              <a href="#who"><div>Who am I?</div></a>
-              <a href="#skills"><div>My skills</div></a>
-              <a href="#projects"><div>My projects</div></a>
-              <a href="#contact"><div>Contact</div></a>
+            <div className="sidemenu" id="sidemenu">
+              <a href="#start" onClick={hide}><div>Start</div></a>
+              <a href="#who" onClick={hide}><div>Who am I?</div></a>
+              <a href="#skills" onClick={hide}><div>My skills</div></a>
+              <a href="#projects" onClick={hide}><div>My projects</div></a>
+              <a href="#contact" onClick={hide}><div>Contact</div></a>
             </div>
           </div>
         </nav>
