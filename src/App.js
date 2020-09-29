@@ -19,7 +19,7 @@ const hide =() => {
   menu.classList.add("click");
   setTimeout( ()=>{
     menu.classList.add("sidemenu");
-    menu.classList.click("click");
+    menu.classList.remove("click");
   },1000)
 }
 
