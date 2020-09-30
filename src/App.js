@@ -11,46 +11,16 @@ import linkedin from './assets/linkedin-sign.png';
 import email from './assets/email.png';
 import Project from './components/project';
 import List from './components/list';
+import SideMenu from './components/sidemenu';
 import data from './assets/data.json';
 
-const hide =() => {
-  const menu = document.getElementById('sidemenu');
-  menu.parentNode.removeChild(menu);
 
-  const newmenu = document.createElement("div");
-  newmenu.innerHTML =`
-    <a href="#start" onClick="hide()"><div>Start</div></a>
-    <a href="#who" onClick="hide()"><div>Who am I?</div></a>
-    <a href="#skills" onClick="hide()"><div>My skills</div></a>
-    <a href="#projects" onClick="hide()"><div>My projects</div></a>
-    <a href="#contact" onClick="hide()"><div>Contact</div></a>
-    `
-    newmenu.id = "sidemenu";
-    newmenu.classList.add("sidemenu");
-  const parent = document.getElementById("butt");
-  setTimeout(()=>{
-    parent.appendChild(newmenu);
-  },500)
-}
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <nav>
-          <div className="butt" id="butt">
-            <div className="butt__line"></div>
-            <div className="butt__line"></div>
-            <div className="butt__line"></div>
-            <div className="sidemenu" id="sidemenu">
-              <a href="#start" onClick={hide}><div>Start</div></a>
-              <a href="#who" onClick={hide}><div>Who am I?</div></a>
-              <a href="#skills" onClick={hide}><div>My skills</div></a>
-              <a href="#projects" onClick={hide}><div>My projects</div></a>
-              <a href="#contact" onClick={hide}><div>Contact</div></a>
-            </div>
-          </div>
-        </nav>
+        <SideMenu />
         <h1 id="start">Front-end & Back-end JavaScript Developer</h1>
         <h2>Yes.I'm doing weird things with pc</h2>
         <img src={photo5} className="face" alt=""/>
