@@ -11,6 +11,7 @@ const allProjects = () => {
         <div className="name" key={element}>{element.name}</div>
         <div className="link" key={element+1}><a href={element.link} target="_blank" rel="noopener noreferrer">Check code</a></div>
         <div className="stack" key={element+2}>{element.stack}</div>
+        <hr/>
       </div> ;
       i += 1;
   })
