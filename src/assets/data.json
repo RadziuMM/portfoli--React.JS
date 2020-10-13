@@ -55,7 +55,7 @@
     ],
     "stack":[
         {
-            "tech":["HTML","Css","Sass","TailWindCss","Bootstrap","JavaScript","Vue.js","React.js","Gulp","Webpack","Babel"]
+            "tech":["HTML","Css","Sass","TailWindCss","Bootstrap","JavaScript","TypeScript","Vue.js","React.js","Gulp","Webpack","Babel"]
         },
         {
             "tech":["Node","express.js","SQL","Eslint","noSQL","GraphQL","mongoDB","Docker","Git","Terminal","Linux","and more.."]
