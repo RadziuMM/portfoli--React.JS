@@ -48,6 +48,11 @@
             "stack":["JavaScript ","express.js ","MongoDB"]
         },
         {
+            "name":"Honey-UI/UX",
+            "link":"https://github.com/RadziuMM/Honey---TypeScript-Express.js-UX-UI-",
+            "stack":["TypeScript ","express.js "]
+        },
+        {
             "name":"TrenerBot",
             "link":"https://github.com/RadziuMM/TrenerBot.js",
             "stack":["JavaScript ","express.js ","FireBase ","Discord&Telegram_api"]
