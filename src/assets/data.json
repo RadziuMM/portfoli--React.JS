@@ -30,7 +30,7 @@
         {
             "name":"Camping Map",
             "link":"https://github.com/RadziuMM/Campings-Map-Vue.js",
-            "stack":["JavaScript ","Vue.js ","Sass ","GoogleApi "]
+            "stack":["JavaScript ","Vue.js ","Sass ","GoogleApi ","express.js ","MongoDB"]
         },
         {
             "name":"Portfolio",
@@ -42,11 +42,7 @@
             "link":"https://github.com/RadziuMM/Server-GraphQL-Prisma-PostgreSQL-",
             "stack":["JavaScript ","express.js ","Apollo ","GraphQL ","Prisma "]
         },
-        {
-            "name":"Server-MongoDB",
-            "link":"https://github.com/RadziuMM/Server-MongoDB",
-            "stack":["JavaScript ","express.js ","MongoDB"]
-        },
+
         {
             "name":"Honey-UI/UX",
             "link":"https://github.com/RadziuMM/Honey---TypeScript-Express.js-UX-UI-",
