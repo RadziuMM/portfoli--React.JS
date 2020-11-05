@@ -15,11 +15,29 @@ import SideMenu from './components/sidemenu';
 import data from './assets/data.json';
 
 
-
 class App extends React.Component {
   render() {
+    setTimeout(()=>{
+      document.getElementById('screenTitle').style.opacity = "1";
+    },500);
+    setTimeout(()=>{
+      const slider = document.getElementById('screenS');
+      slider.style.marginTop='-150vh'
+      setTimeout(()=>{
+          const scren = document.getElementById('screenB');
+          scren.style.marginTop='-150vh'
+        },3000)
+      },1500)
     return (
       <div className="App">
+        <div id="screenB">
+          <div id="screenTitle">
+          <div>Radosław Mazurczak</div>
+          <div>FullStack JavaScript Developer</div>
+          </div>
+          
+        </div>
+        <div id="screenS"></div>
         <SideMenu />
         <h1 id="start">Front-end & Back-end JavaScript Developer</h1>
         <h2>Yes.I'm doing weird things with pc</h2>

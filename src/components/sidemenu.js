@@ -31,9 +31,9 @@ class sidemenu extends React.Component {
     return (
         <nav>
           <div className="butt" id="butt">
-            <div className="butt__line"></div>
-            <div className="butt__line"></div>
-            <div className="butt__line"></div>
+            <hr className="butt__line"/>
+            <hr className="butt__line"/>
+            <hr className="butt__line"/>
             <div className="sidemenu" id="sidemenu">
               <a href="#start" onClick={hide}><div>Start</div></a>
               <a href="#who" onClick={hide}><div>Who am I?</div></a>
