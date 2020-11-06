@@ -33,11 +33,17 @@
 }
 
 .slider-change {
+  margin-left: 20px;
+  margin-top: 5vh;
   display: inline-block;
   height: 10px;
   width: 10px;
   border-radius: 5px;
   background-color: #292727;
+  cursor: pointer;
+  &:hover{
+    background-color: #353333;
+  }
 }
 .name {
   font-weight: bolder;
@@ -50,20 +56,21 @@ a{
 .linkbox{
     text-align: center;
     align-items: center;
-    display: flex;
-    width: 60vw;
-    margin-left: 20vw;
+    display: inline-block;
+    margin-left: 0 auto;
 }
 .link {
+  white-space:nowrap;
   animation: infinite blinker 3s;
   border: solid 1px black;
   padding: 3px;
   border-radius: 25px;
-  flex: 1;
-  width: 20vw;
+  min-width: 20vw;
+  max-width:30vw;
   margin:5vw;
   margin-top:20px;
   transition: 1s;
+  float: left;
   &:hover{
       background-color: #292727;
       cursor: pointer;
@@ -82,4 +89,7 @@ a{
 }
 .stack{
     margin:20px;
+}
+.slider-image{
+    margin-top: -50vh;
 }

@@ -3,48 +3,36 @@
         "text0":"Hi, I'm Radek. Nice to meet you.",
         "text1":"Currently, I am at the beginning of my career in IT. Programming gives me a lot of fun, so I decided to develop in this direction. I do well on the frontend and backend. My current goal is to find a job that will help me develop my skills."
     },
-    "containers":[
-        {
-            "text0":"About me",
-            "text1":"HI! My name is Radek!"
-        },
-        {
-            "text0":"About me",
-            "text1":"HI! My name is Radek!"
-        },
-        {
-            "text0":"About me",
-            "text1":"HI! My name is Radek!"
-        },
-        {
-            "text0":"About me",
-            "text1":"HI! My name is Radek!"
-        }
-    ],
+    "containers":[],
     "projects":[
         {
             "name":"Calendar",
             "link":"https://github.com/RadziuMM/Calendar-Vue.js",
+            "link2":"https://calendarapplication.herokuapp.com/#/",
             "stack":["JavaScript ","Vue.js ","GraphQL ","TailWindCss ","Apollo ","express.js ","Prisma "]
         },
         {
             "name":"Camping Map",
             "link":"https://github.com/RadziuMM/Campings-Map-Vue.js",
+            "link2":"campingmap.herokuapp.com/#/",
             "stack":["JavaScript ","Vue.js ","Sass ","GoogleApi ","express.js ","MongoDB"]
         },
         {
             "name":"Portfolio",
             "link":"https://github.com/RadziuMM/portfoli--React.JS",
+            "link2":"https://rmazurczak.herokuapp.com/",
             "stack":["JavaScript ","React.js ","Sass "]
         },
         {
             "name":"Honey-UI/UX",
             "link":"https://github.com/RadziuMM/Honey---TypeScript-Express.js-UX-UI-",
+            "link2":"honeyii.herokuapp.com/",
             "stack":["TypeScript ","express.js "]
         },
         {
             "name":"TrenerBot",
             "link":"https://github.com/RadziuMM/TrenerBot.js",
+            "link2":"https://github.com/RadziuMM/TrenerBot.js",
             "stack":["JavaScript ","express.js ","FireBase ","Discord&Telegram_api"]
         }
     ],
