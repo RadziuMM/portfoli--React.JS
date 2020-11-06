@@ -14,7 +14,7 @@
         {
             "name":"Camping Map",
             "link":"https://github.com/RadziuMM/Campings-Map-Vue.js",
-            "link2":"campingmap.herokuapp.com/#/",
+            "link2":"https://campingmap.herokuapp.com/#/",
             "stack":["JavaScript ","Vue.js ","Sass ","GoogleApi ","express.js ","MongoDB"]
         },
         {
@@ -26,7 +26,7 @@
         {
             "name":"Honey-UI/UX",
             "link":"https://github.com/RadziuMM/Honey---TypeScript-Express.js-UX-UI-",
-            "link2":"honeyii.herokuapp.com/",
+            "link2":"https://honeyii.herokuapp.com/",
             "stack":["TypeScript ","express.js "]
         },
         {
