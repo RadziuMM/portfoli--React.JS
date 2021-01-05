@@ -34,6 +34,12 @@
             "link":"https://github.com/RadziuMM/TrenerBot.js",
             "link2":"https://github.com/RadziuMM/TrenerBot.js",
             "stack":["JavaScript ","express.js ","FireBase ","Discord&Telegram_api"]
+        },
+        {
+            "name":"ErpSystem",
+            "link":"https://github.com/RadziuMM/ERP-React.js",
+            "link2":"https://erpss.herokuapp.com/",
+            "stack":["TypeScript ","express.js ","React ","Redux ","MySQL ","Sass "]
         }
     ],
     "stack":[
