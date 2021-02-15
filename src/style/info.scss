@@ -1,0 +1,108 @@
+@import './mixins.scss';
+.info {
+  text-align: left;
+  & > div {
+    margin-top: 20px;
+    margin-left: 15vw;
+    &:nth-child(2) {
+        margin-top: 40px;
+        @media (min-width: 768px) {
+            margin-top: 100px;
+        }
+        @media (min-width: 1024px) {
+            margin-top: 100px;
+        }
+        @media (min-width: 1280px) {
+        margin-top: 200px;
+      }
+    }
+    &:last-child {
+      clear: both;
+      margin-bottom: 40px;
+      @media (min-width: 768px) {
+          margin-bottom: 80px;
+      }
+      @media (min-width: 1024px) {
+          margin-bottom: 160px;
+      }
+      @media (min-width: 1280px) {
+      margin-bottom: 200px;
+    }
+    }
+    & > a {
+      &:hover {
+        & > span {
+          letter-spacing: 1px;
+          @media (min-width: 768px) {
+            letter-spacing: 7px;
+          }
+        }
+        & > img {
+          animation: pop 0.5s;
+        }
+        @keyframes pop {
+          0% {
+            margin-top: 0;
+            margin-bottom: 0px;
+          }
+          50% {
+            margin-top: -10px;
+            margin-bottom: 10px;
+          }
+          100% {
+            margin-top: 0;
+            margin-bottom: 0px;
+          }
+        }
+      }
+      & > img {
+        position: relative;
+        width: 35px;
+        margin-left: -20px;
+        @media (min-width: 768px) {
+          margin-left: 0px;
+          width: 40px;
+        }
+        @media (min-width: 1024px) {
+          width: 45px;
+        }
+        @media (min-width: 1280px) {
+          width: 50px;
+        }
+      }
+      & > span {
+        position: absolute;
+        margin-left: 20px;
+        font-family: "Architects Daughter", cursive;
+        font-weight: 600;
+        color: $color2;
+        text-shadow: 1px 5px 2px black; 
+        transition: 0.2s ease-in-out;
+        font-size: 15px;
+        margin-top: 0px;
+        @media (min-width: 768px) {
+          margin-top: 10px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+.dude {
+  float: left;
+  & > img {
+    margin-left: -55px;
+    margin-top: -20px;
+    height: 200px;
+    @media (min-width: 768px) {
+        height: 350px;
+    }
+    @media (min-width: 1024px) {
+        height: 400px;
+    }
+    @media (min-width: 1280px) {
+        margin-top: -100px;
+      height: 450px;
+    }
+  }
+}

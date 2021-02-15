@@ -1,0 +1,43 @@
+@import "./mixins.scss";
+
+.skillsBox {
+  width: 100%;
+  min-height: 70vw;
+  padding-bottom: 10vh;
+  background-color: $color4;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: $color2;
+  text-shadow: 1px 5px 2px black;
+  border-top: 1px solid $color2;
+  border-bottom: 1px solid $color2;
+  @media (min-width: 1280px) {
+    font-size: xx-large;
+  }
+  & > div {
+    float: left;
+    width: 33.3%;
+    font-size: 0.8rem;
+    @media (min-width: 768px) {
+      font-size: 1.6rem;
+    }
+    @media (min-width: 1024px) {
+      font-size: 2.5rem;
+    }
+    @media (min-width: 1280px) {
+      font-size: 3rem;
+      float: left;
+      width: 33.3%;
+      font-size: 3rem;
+    }
+    & > img {
+      width: 30%;
+      margin: 0 auto;
+      margin-top: 5vw;
+      margin-bottom: 2vw;
+    }
+  }
+}
+.header {
+  margin-bottom: 3vw;
+}

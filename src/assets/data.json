@@ -9,13 +9,13 @@
             "name":"Calendar",
             "link":"https://github.com/RadziuMM/Calendar-Vue.js",
             "link2":"https://calendarapplication.herokuapp.com/#/",
-            "stack":["JavaScript ","Vue.js ","GraphQL ","TailWindCss ","Apollo ","express.js ","Prisma "]
+            "stack":["JavaScript ","Vue.js ","GraphQL ","TailWindCss ","Apollo ","Express.js ","Prisma "]
         },
         {
             "name":"Camping Map",
             "link":"https://github.com/RadziuMM/Campings-Map-Vue.js",
             "link2":"https://campingmap.herokuapp.com/#/",
-            "stack":["JavaScript ","Vue.js ","Sass ","GoogleApi ","express.js ","MongoDB"]
+            "stack":["JavaScript ","Vue.js ","Sass ","GoogleApi ","Express.js ","MongoDB"]
         },
         {
             "name":"Portfolio",
@@ -27,19 +27,19 @@
             "name":"Honey-UI/UX",
             "link":"https://github.com/RadziuMM/Honey---TypeScript-Express.js-UX-UI-",
             "link2":"https://honeyii.herokuapp.com/",
-            "stack":["TypeScript ","express.js "]
+            "stack":["TypeScript ","Express.js "]
         },
         {
             "name":"TrenerBot",
             "link":"https://github.com/RadziuMM/TrenerBot.js",
             "link2":"https://github.com/RadziuMM/TrenerBot.js",
-            "stack":["JavaScript ","express.js ","FireBase ","Discord&Telegram_api"]
+            "stack":["JavaScript ","Express.js ","FireBase ","Discord&Telegram_api"]
         },
         {
             "name":"ErpSystem",
             "link":"https://github.com/RadziuMM/ERP-React.js",
             "link2":"https://erpss.herokuapp.com/",
-            "stack":["TypeScript ","express.js ","React ","Redux ","MySQL ","Sass "]
+            "stack":["TypeScript ","Express.js ","React ","Redux ","MySQL ","Sass "]
         }
     ],
     "stack":[
