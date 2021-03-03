@@ -6,8 +6,7 @@ import data from '../assets/data.json';
 const gen = (table) => {
     let list = [];
     let i = 0;  
-    let j = table;
-    data.stack[j].tech.forEach(element => {
+    data.stack[table].tech.forEach(element => {
       list[i] = <div className="technology" key={element}>{element}</div>;
         i += 1;
     })

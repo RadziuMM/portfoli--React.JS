@@ -1,0 +1,26 @@
+@import "./mixins";
+a{
+  text-decoration: none;
+  color: white;
+}
+.openSourceAPP {
+  margin: 2vh auto;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  width: 80vw;
+  background-color: $color4;
+  font-family: "Architects Daughter", cursive;
+  &:hover{
+    background-color: $color1;
+  }
+  &>div{
+    color: $color2;
+    font-size: 18px;
+    text-shadow: 1px 5px 2px black;
+  }
+  &>div:first-child{
+    color: $color2;
+    font-size: 25px;
+    text-shadow: 1px 5px 2px black;
+  }
+}

@@ -7,6 +7,7 @@ import data from './assets/data.json';
 import Project from './components/project';
 import Info from './components/info';
 import SkillsBox from './components/skillsBox';
+import OpenSource from './components/openSource';
 
 
 
@@ -44,6 +45,11 @@ class App extends React.Component {
         <div className="projects">
           <div>My projects</div>
           <Project /> 
+        </div>
+        <div className="OpenTitle">Free Source Activity</div>
+        <p className="OpenAbout">{data.open[0].about}</p>
+        <div className="open">
+          <OpenSource />
         </div>
         <footer>RMazurczak@protonmail.com&copy;</footer>
       </div>

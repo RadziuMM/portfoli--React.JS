@@ -3,7 +3,6 @@
         "text0":"Hi, I'm Radek. Nice to meet you.",
         "text1":"Currently, I am at the beginning of my career in IT. Programming gives me a lot of fun, so I decided to develop in this direction. I do well on the frontend and backend. My current goal is to find a job that will help me develop my skills."
     },
-    "containers":[],
     "projects":[
         {
             "name":"Calendar",
@@ -40,6 +39,12 @@
             "link":"https://github.com/RadziuMM/ERP-React.js",
             "link2":"https://erpss.herokuapp.com/",
             "stack":["TypeScript ","Express.js ","React ","Redux ","MySQL ","Sass "]
+        },
+        {
+            "name":"BookShelf",
+            "link":"https://github.com/RadziuMM/BookShelf",
+            "link2":"https://bookshelf0.herokuapp.com/",
+            "stack":["JavaScript ","Webpack","Sass ","Axios"]
         }
     ],
     "stack":[
@@ -51,6 +56,21 @@
         },
         {
             "tech":["Agile","Scrum","Github","Jira","Confluence","Excel"]
+        }
+    ],
+    "open":[
+        {
+            "about":
+            "In short, I have always supported the Free Software community and the ideologies of Richard Stallman.Below are my small contributions to that community."
+        },
+        {
+            "projects":[
+                [
+                    "KISS-CMS",
+                    "Node package that generates cms according to KISS (keep it simple, stupid) principle",
+                    "https://www.npmjs.com/package/kiss-cms"
+                ]
+            ]
         }
     ]
 }
